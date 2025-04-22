@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    height: 30px;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .content {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .info {
+    flex: 2;
+    max-width: 600px;
+  }
+  
+  .info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .product {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .product reverse {
+    padding-top: 1.5rem;
+  }
+  
+  .product reverse img{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .product img {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .orange-btn {
+    background-color: orange;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .blue-btn {
+    background-color: #0033a0;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem 0;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-box {
+    flex: 1;
+    max-width: 350px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .login-box h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .login-box input[type="email"],
+  .login-box input[type="password"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-box .captcha-box {
+    margin: 1rem 0;
+  }
+  
+  .remember {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .login-box a {
+    display: block;
+    font-size: 0.9rem;
+    color: #0033a0;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer a {
+    color: #0033a0;
+    text-decoration: none;
+    margin: 0 0.3rem;
+  }
